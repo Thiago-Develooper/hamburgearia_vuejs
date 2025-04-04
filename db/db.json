@@ -1,0 +1,77 @@
+{
+    "ingredientes": {
+        "paes": [
+            {
+                "id": 1,
+                "tipo": "Italiano Branco"
+            },
+            {
+                "id": 2,
+                "tipo": "Parmesão"
+            },
+            {
+                "id": 3,
+                "tipo": "Integral"
+            }
+        ],
+        "Carnes": [
+            {
+                "id": 1,
+                "tipo": "Maminha"
+            },
+            {
+                "id": 2,
+                "tipo": "Picanha"
+            },
+            {
+                "id": 3,
+                "tipo": "Frango Grelhado"
+            },
+            {
+                "id": 4,
+                "tipo": "Costela Desfiada"
+            },
+            {
+                "id": 5,
+                "tipo": "Carne Suína"
+            }
+        ],
+        "opcionais": [
+            {
+                "id": 1,
+                "tipo": "Bacon"
+            },
+            {
+                "id": 2,
+                "tipo": "Queijo Cheddar"
+            },
+            {
+                "id": 3,
+                "tipo": "Ovo"
+            },
+            {
+                "id": 4,
+                "tipo": "Cebola Caramelizada"
+            },
+            {
+                "id": 5,
+                "tipo": "Molho Especial"
+            }
+        ]
+    },
+    "status": [
+        {
+            "id": 1,
+            "tipo": "Solicitado"
+        },
+        {
+            "id": 2,
+            "tipo": "Em produção"
+        },
+        {
+            "id": 3,
+            "tipo": "Finalizado"
+        }
+    ],
+    "burgers": []
+}
