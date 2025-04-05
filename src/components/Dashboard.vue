@@ -82,6 +82,7 @@
     }
 </script>
 
+<!--  -->
 <style scoped>
   #burger-table {
     max-width: 1200px;
