@@ -43,6 +43,8 @@
   </template>
 
 <script>
+import Message from './Message.vue';
+
 export default {
     name: "BurgerForm",
     data() {
@@ -88,8 +90,10 @@ export default {
             const res = await req.json()
 
             // colocar mensagem no sistema
+            this.msg = 'Pedido realizado com sucesso'
 
             // limpar mensagem no sistema
+            setTimeout(() => this.msg = "", 3000)
 
             // limpar campos
             this.nome = ""
@@ -101,6 +105,9 @@ export default {
     },
     mounted() {
         this.getIngredients()
+    },
+    components: {
+        Message
     }
 }
 </script>
