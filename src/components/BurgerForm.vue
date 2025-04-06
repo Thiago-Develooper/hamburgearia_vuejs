@@ -80,11 +80,13 @@ export default {
                 status: "Solicitado"
             }
 
+
             const dataJson = JSON.stringify(data);
 
             const req = await fetch("http://localhost:3000/burgers", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" }
+                headers: { "Content-Type": "application/json" },
+                body: dataJson
             })
 
             const res = await req.json()
@@ -99,7 +101,7 @@ export default {
             this.nome = ""
             this.carne = ""
             this.pao = ""
-            this.opcionais = ""
+            this.opcionais = []
         },
 
     },
