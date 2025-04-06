@@ -65,15 +65,15 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
@@ -88,18 +88,7 @@
         "Cebola roxa"
       ],
       "status": "Finalizado",
-      "id": 1
-    },
-    {
-      "nome": "João Coelho",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 4
+      "id": "1"
     },
     {
       "id": "7808",
@@ -112,7 +101,7 @@
         "Pepino",
         "Cebola roxa"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     }
   ]
 }
