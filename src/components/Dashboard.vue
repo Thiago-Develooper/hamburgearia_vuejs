@@ -67,7 +67,7 @@
 
             },
             async deleteBurger(id) {
-                const req = fetch(`http://localhost:3000/burgers/${id}`, {
+                const req = await fetch(`http://localhost:3000/burgers/${id}`, {
                     method: "DELETE"
                 })
 
@@ -82,7 +82,6 @@
     }
 </script>
 
-<!-- ? -->
 <style scoped>
   #burger-table {
     max-width: 1200px;
